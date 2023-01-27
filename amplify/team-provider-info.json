@@ -14,6 +14,9 @@
     "categories": {
       "auth": {
         "reactgraphqlnotesapp5fff544c": {}
+      },
+      "api": {
+        "reactgraphqlnotesapp": {}
       }
     }
   }
