@@ -34,6 +34,7 @@ const App = ({ signOut }) => {
           const url = await Storage.get(note.name);
           note.image = url;
         }
+        return note;
       })
     );
     setNotes(notesFromAPI);
@@ -118,7 +119,7 @@ const App = ({ signOut }) => {
             {note.image && (
               <Image
                 src={note.image}
-                alt={`visual aid for ${notes.name}`}
+                alt={"visual aid for ${notes.name}"}
                 style={{ width: 400 }}
               />
             )}
