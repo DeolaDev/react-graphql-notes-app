@@ -1,0 +1,14 @@
+{
+  "resourceName": "images",
+  "policyUUID": "f23b5ffc",
+  "bucketName": "reactnotesappimages",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
